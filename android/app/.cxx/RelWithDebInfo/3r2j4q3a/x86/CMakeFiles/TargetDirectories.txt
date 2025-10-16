@@ -1,0 +1,2 @@
+/Users/shoogalthlathini/Masar-Application/android/app/.cxx/RelWithDebInfo/3r2j4q3a/x86/CMakeFiles/rebuild_cache.dir
+/Users/shoogalthlathini/Masar-Application/android/app/.cxx/RelWithDebInfo/3r2j4q3a/x86/CMakeFiles/edit_cache.dir

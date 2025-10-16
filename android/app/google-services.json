@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "189224371149",
+    "project_id": "masar-202ef",
+    "storage_bucket": "masar-202ef.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:189224371149:android:5c82a1a338a8996b20ba84",
+        "android_client_info": {
+          "package_name": "com.tawjihepalestine.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPiJzRZAuhutOSNUhKjqFUksI0B6xHYxo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,15 @@
+<svg id="Component_1" data-name="Component 1" xmlns="http://www.w3.org/2000/svg" width="147.1" height="117" viewBox="0 0 147.1 117">
+  <g id="Group_5305" data-name="Group 5305" transform="translate(-8 -22)">
+    <path id="Vector" d="M122.881,19.786c13.766,17.376,15.282,48.28,2.217,68.8C112.149,109,84.617,118.911,60.818,116.7c-23.8-2.1-43.981-16.326-53.78-34.869s-9.216-41.4.817-56.676S37.486,2.294,60.352.428C83.1-1.438,109.115,2.41,122.881,19.786Z" transform="translate(13 22)" fill="#005b8e" opacity="0.2"/>
+    <path id="Ellipse_146" data-name="Ellipse 146" d="M4.05,0A4.05,4.05,0,1,1,0,4.05,4.05,4.05,0,0,1,4.05,0Z" transform="translate(147 104.8)" fill="#005b8e" opacity="0.5"/>
+    <circle id="Ellipse_147" data-name="Ellipse 147" cx="8.1" cy="8.1" r="8.1" transform="translate(8 117.4)" fill="#005b8e" opacity="0.5"/>
+    <circle id="Ellipse_149" data-name="Ellipse 149" cx="3.15" cy="3.15" r="3.15" transform="translate(15.2 30.1)" fill="#005b8e" opacity="0.5"/>
+    <path id="Vector-2" data-name="Vector" d="M93.192,14.916c10.44,13.1,11.59,36.4,1.681,51.868-9.821,15.385-30.7,22.857-48.749,21.187C28.075,86.388,12.769,75.663,5.338,61.685s-6.989-31.209.619-42.725S28.429,1.729,45.77.322C63.022-1.084,82.752,1.817,93.192,14.916Z" transform="translate(29.2 36.4)" fill="#005b8e"/>
+    <g id="Group_5304" data-name="Group 5304">
+      <g id="Union">
+        <circle id="Ellipse_669" data-name="Ellipse 669" cx="21.6" cy="21.6" r="21.6" transform="translate(58.9 58.9)" fill="#fff"/>
+        <path id="Vector_4" data-name="Vector 4" d="M18.45,0,5.4,12.6,0,7.2" transform="translate(71.5 74.2)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>

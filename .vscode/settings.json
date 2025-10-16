@@ -1,0 +1,9 @@
+{
+    "terminal.integrated.automationProfile.windows": {
+
+    }, 
+    "terminal.integrated.env.osx": {
+        "PATH": "/Users/aya/.rbenv/shims:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:${env:PATH}"
+    }
+
+}

@@ -1,0 +1,55 @@
+workflows:
+  ios-workflow:
+    name: iOS Production Build
+    environment:
+      groups:
+        - app_store_credentials
+      vars:
+        BUNDLE_ID: "com.masarplatform.app"
+        TEAM_ID: "6FVRZZP2DM"
+      flutter: "3.29.0"
+      xcode: "16.2"
+      cocoapods: "1.16.2"
+
+    triggering:
+      events:
+        - push
+      branch_patterns:
+        - pattern: "main"
+          include: true
+          build_on: push
+
+    scripts:
+      - name: Set up keychain
+        script: |
+          keychain initialize
+
+      - name: Fetch signing files
+        script: |
+          app-store-connect fetch-signing-files "$BUNDLE_ID" --type IOS_APP_STORE
+
+      - name: Set up signing
+        script: |
+          keychain add-certificates
+
+      - name: Install pods
+        script: |
+          flutter clean
+          cd ios && pod install --repo-update && cd ..
+
+      - name: Build IPA
+        script: |
+          flutter build ipa --release
+
+    artifacts:
+      - build/ios/ipa/*.ipa
+
+    publishing:
+      app_store_connect:
+        auth: integration
+        submit_to_testflight: true
+
+    ios_signing:
+      distribution_type: app_store
+      bundle_identifier: $BUNDLE_ID
+      team_id: $TEAM_ID
